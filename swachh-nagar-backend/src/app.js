@@ -16,12 +16,19 @@ const app = express();
 
 // Security
 app.use(helmet());
+const allowedOrigins = [
+  /^http:\/\/localhost:\d+$/,
+  /^https:\/\/.*\.vercel\.app$/,
+  process.env.CLIENT_URL,
+].filter(Boolean);
+
 app.use(cors({
   origin: (origin, callback) => {
-    // Allow requests with no origin (mobile apps, curl) and any localhost port in dev
-    if (!origin || /^http:\/\/localhost:\d+$/.test(origin) || origin === (process.env.CLIENT_URL || '')) {
-      return callback(null, true);
-    }
+    if (!origin) return callback(null, true);
+    const allowed = allowedOrigins.some((o) =>
+      o instanceof RegExp ? o.test(origin) : o === origin
+    );
+    if (allowed) return callback(null, true);
     callback(new Error('Not allowed by CORS'));
   },
   credentials: true,
