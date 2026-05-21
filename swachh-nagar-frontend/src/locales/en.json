@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "home": "Home",
+    "complaints": "Complaints",
+    "map": "Map",
+    "leaderboard": "Leaderboard",
+    "blog": "Awareness",
+    "schedule": "Schedule",
+    "profile": "Profile",
+    "dashboard": "Dashboard",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register"
+  },
+  "landing": {
+    "hero_title": "Report. Track. Resolve.",
+    "hero_subtitle": "Help keep your city clean. Report civic issues, track their resolution, and earn rewards for making a difference.",
+    "cta_report": "Report an Issue",
+    "cta_learn": "Learn More",
+    "stats_complaints": "Complaints Resolved",
+    "stats_users": "Active Citizens",
+    "stats_cities": "Wards Covered",
+    "stats_response": "Avg. Response Time"
+  },
+  "complaint": {
+    "report": "Report Issue",
+    "title": "Title",
+    "description": "Description",
+    "category": "Category",
+    "location": "Location",
+    "upload_image": "Upload Image",
+    "submit": "Submit Complaint",
+    "status": {
+      "pending": "Pending",
+      "assigned": "Assigned",
+      "in_progress": "In Progress",
+      "resolved": "Resolved",
+      "rejected": "Rejected"
+    },
+    "categories": {
+      "garbage_dumping": "Garbage Dumping",
+      "overflowing_bin": "Overflowing Bin",
+      "road_dirt": "Road Dirt",
+      "drainage_overflow": "Drainage Overflow",
+      "dead_animal": "Dead Animal",
+      "construction_debris": "Construction Debris",
+      "water_logging": "Water Logging",
+      "other": "Other"
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome back",
+    "total_complaints": "Total Complaints",
+    "resolved": "Resolved",
+    "pending": "Pending",
+    "points": "Your Points",
+    "recent_activity": "Recent Activity",
+    "quick_report": "Quick Report"
+  },
+  "gamification": {
+    "points": "Points",
+    "badges": "Badges",
+    "leaderboard": "Leaderboard",
+    "rank": "Rank",
+    "earned": "Earned",
+    "locked": "Locked"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try Again",
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "submit": "Submit",
+    "back": "Back",
+    "next": "Next",
+    "confirm": "Confirm",
+    "search": "Search",
+    "filter": "Filter",
+    "all": "All",
+    "no_data": "No data found"
+  }
+}

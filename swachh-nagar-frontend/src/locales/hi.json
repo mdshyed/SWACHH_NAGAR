@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "home": "होम",
+    "complaints": "शिकायतें",
+    "map": "नक्शा",
+    "leaderboard": "लीडरबोर्ड",
+    "blog": "जागरूकता",
+    "schedule": "कार्यक्रम",
+    "profile": "प्रोफाइल",
+    "dashboard": "डैशबोर्ड",
+    "logout": "लॉगआउट",
+    "login": "लॉगिन",
+    "register": "रजिस्टर"
+  },
+  "landing": {
+    "hero_title": "रिपोर्ट करें। ट्रैक करें। समाधान पाएं।",
+    "hero_subtitle": "अपने शहर को स्वच्छ रखने में मदद करें। नागरिक मुद्दे रिपोर्ट करें और पुरस्कार अर्जित करें।",
+    "cta_report": "समस्या रिपोर्ट करें",
+    "cta_learn": "अधिक जानें",
+    "stats_complaints": "शिकायतें हल हुईं",
+    "stats_users": "सक्रिय नागरिक",
+    "stats_cities": "वार्ड कवर",
+    "stats_response": "औसत प्रतिक्रिया समय"
+  },
+  "complaint": {
+    "report": "समस्या रिपोर्ट करें",
+    "title": "शीर्षक",
+    "description": "विवरण",
+    "category": "श्रेणी",
+    "location": "स्थान",
+    "upload_image": "छवि अपलोड करें",
+    "submit": "शिकायत दर्ज करें",
+    "status": {
+      "pending": "लंबित",
+      "assigned": "असाइन किया गया",
+      "in_progress": "प्रक्रिया में",
+      "resolved": "हल हुआ",
+      "rejected": "अस्वीकृत"
+    },
+    "categories": {
+      "garbage_dumping": "कचरा फेंकना",
+      "overflowing_bin": "भरा हुआ डिब्बा",
+      "road_dirt": "सड़क पर गंदगी",
+      "drainage_overflow": "नाला भर जाना",
+      "dead_animal": "मृत जानवर",
+      "construction_debris": "निर्माण मलबा",
+      "water_logging": "जलजमाव",
+      "other": "अन्य"
+    }
+  },
+  "dashboard": {
+    "welcome": "वापस स्वागत है",
+    "total_complaints": "कुल शिकायतें",
+    "resolved": "हल हुई",
+    "pending": "लंबित",
+    "points": "आपके अंक",
+    "recent_activity": "हालिया गतिविधि",
+    "quick_report": "त्वरित रिपोर्ट"
+  },
+  "gamification": {
+    "points": "अंक",
+    "badges": "बैज",
+    "leaderboard": "लीडरबोर्ड",
+    "rank": "रैंक",
+    "earned": "अर्जित",
+    "locked": "बंद"
+  },
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "error": "कुछ गलत हुआ",
+    "retry": "दुबारा कोशिश करें",
+    "save": "सहेजें",
+    "cancel": "रद्द करें",
+    "delete": "हटाएं",
+    "edit": "संपादित करें",
+    "view": "देखें",
+    "submit": "जमा करें",
+    "back": "वापस",
+    "next": "अगला",
+    "confirm": "पुष्टि करें",
+    "search": "खोजें",
+    "filter": "फ़िल्टर",
+    "all": "सभी",
+    "no_data": "कोई डेटा नहीं मिला"
+  }
+}

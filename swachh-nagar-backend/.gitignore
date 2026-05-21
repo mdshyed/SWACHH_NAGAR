@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.test
+logs/
+dist/
+coverage/
+*.log
+.DS_Store
+src/ai/model/
